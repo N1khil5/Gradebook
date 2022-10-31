@@ -7,6 +7,50 @@ namespace GradeBook.Tests
     {
 
         [Fact]
+        public void Test1()
+        {
+            var x = GetInt();
+
+            Assert.Equal(3, x);
+        }
+
+        private int GetInt()
+        {
+            return 3;
+        }
+
+        [Fact]
+        public void CSharpCanPassByRef()
+        {
+            // SetName works when you pass by reference but not when you pass by value so GetBookSetName changes the value here. 
+            var book1 = GetBook("Book 1");
+            GetBookSetName(ref book1, "New Names");
+
+            Assert.Equal("New Names", book1.Name);
+        }
+
+        private void GetBookSetName(ref Book book, string name)
+        {
+            book = new Book(name);
+        }
+
+        [Fact]
+        public void CSharpCanPassByValue()
+        {
+            // GetBookSetName will not be able to change the value of the book1 variable so will remain as 'Book 1'.
+            var book1 = GetBook("Book 1");
+            GetBookSetName(book1, "New Names");
+
+            Assert.Equal("Book 1", book1.Name);
+        }
+
+        private void GetBookSetName(Book book, string name)
+        {
+            book = new Book(name);
+            book.Name = name;
+        }
+
+        [Fact]
         public void CanSetNameFromReference()
         {
             var book1 = GetBook("Book 1");
@@ -23,7 +67,6 @@ namespace GradeBook.Tests
         [Fact] 
         public void GetBookReturnsDifferentObjects()
         {
-            // Test cases not receiving actual value and fail. Does not check the other test cases in this instance.
             var book1 = GetBook("Book 1");
             var book2 = GetBook("Book 2");
 
