@@ -1,12 +1,13 @@
 using Xunit.Abstractions;
 using Xunit;
+
 namespace GradeBook.Tests
 {
     public class TypeTests
     {
 
         [Fact]
-        public void Test1()
+        public void CanSetNameFromReference()
         {
             var book1 = GetBook("Book 1");
             SetName(book1, "New Name");
