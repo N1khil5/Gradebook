@@ -11,7 +11,7 @@ namespace GradeBook.Tests
         }
 
         [Fact] //attribute
-        public void Test1()
+        public void BookCalculatesGradeStatistics()
         {
             // Arrange
             var book = new Book("");
@@ -25,7 +25,6 @@ namespace GradeBook.Tests
             // Assert
             Assert.Equal(85.7, result.Average,1);
             output.WriteLine($"The average we expected is 85.7, the program returned {result.Average}");
-            
             Assert.Equal(90.5, result.High,1);
             output.WriteLine($"The maximum grade value we expected is 90.5, the program returned {result.High}");
             Assert.Equal(77.5, result.Low,1);
