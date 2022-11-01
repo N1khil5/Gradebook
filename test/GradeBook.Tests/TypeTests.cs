@@ -21,7 +21,7 @@ namespace GradeBook.Tests
 
         private int SetInt(ref int x)
         {
-            x = 42;
+            return 42;
         }
 
         [Fact]
@@ -77,7 +77,7 @@ namespace GradeBook.Tests
             var upper = MakeUpperCase(name);
 
             Assert.Equal("Nikhil", name);
-            Assert.Equal("Nikhil", upper);
+            Assert.Equal("NIKHIL", upper);
         }
 
         private string MakeUpperCase(string parameter)
