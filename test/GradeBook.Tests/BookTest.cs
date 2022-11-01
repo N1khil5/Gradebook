@@ -29,6 +29,7 @@ namespace GradeBook.Tests
             output.WriteLine($"The maximum grade value we expected is 90.5, the program returned {result.High}");
             Assert.Equal(77.5, result.Low,1);
             output.WriteLine($"The lowest grade value we expected is 77.5, the program returned {result.Low}");
+            Assert.Equal('B', result.Letter);
         }
     }
 }
