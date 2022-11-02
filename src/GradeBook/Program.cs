@@ -17,8 +17,9 @@
                 }
                 try
                 {
+                    // Converting the input string into a double so it can be added to the gradebook array.
                     var grade = double.Parse(input);
-                    book.AddGrade(grade);                
+                    book.AddGrade(grade);               
                 }
                 catch (ArgumentException ex)
                 {
