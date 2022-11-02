@@ -30,16 +30,16 @@
                 }
                 finally
                 {
-                    System.Console.WriteLine("Grade not added, please try again if you want to add more grades.");
+                    System.Console.WriteLine("");
                 }
 
             }
 
             var stats = book.GetStatistics();
             
-            System.Console.WriteLine($"The average grade is {stats.Average:N1}");
             System.Console.WriteLine($"The highest grade is {stats.High:N1}");
             System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
+            System.Console.WriteLine($"The average grade is {stats.Average:N1}");
             System.Console.WriteLine($"The letter grade is {stats.Letter}");
 
         }

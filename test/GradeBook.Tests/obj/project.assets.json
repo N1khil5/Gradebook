@@ -6130,11 +6130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectPath": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "outputPath": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6149,8 +6149,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
