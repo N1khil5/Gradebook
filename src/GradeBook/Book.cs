@@ -71,6 +71,24 @@ namespace GradeBook
         }
 
         private List<double> grades;
-        public string Name; // Public so we can access the name outside the class.
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    name = value;
+                }
+                else
+                {
+                    throw new ArgumentNullException();
+                }
+            } 
+        }
+        private string name; 
     }
 }

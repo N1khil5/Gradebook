@@ -5,7 +5,10 @@
     {
         static void Main(string[] args)
         {
-            var book = new Book("Nikhil GradeBook");
+            System.Console.WriteLine("Please enter your name to initialise your own gradebook.");
+
+            var book = new Book($"GradeBook");
+            book.Name = Console.ReadLine();
 
             while (true)
             {
@@ -37,7 +40,8 @@
             }
 
             var stats = book.GetStatistics();
-            
+
+            System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
             System.Console.WriteLine($"The highest grade is {stats.High:N1}");
             System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
             System.Console.WriteLine($"The average grade is {stats.Average:N1}");
