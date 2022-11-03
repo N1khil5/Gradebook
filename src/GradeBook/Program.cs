@@ -10,6 +10,11 @@
             var book = new Book($"GradeBook");
             book.Name = Console.ReadLine();
 
+            book.GradeAdded += OnGradeAdded;
+            book.GradeAdded += OnGradeAdded;
+            book.GradeAdded -= OnGradeAdded;
+            book.GradeAdded += OnGradeAdded;
+
             while (true)
             {
                 Console.WriteLine("Please add the grades in this gradebook or 'q' to quit");
@@ -42,11 +47,17 @@
             var stats = book.GetStatistics();
 
             System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
+            System.Console.WriteLine($"The gradebook category is {Book.CATEGORY}");
             System.Console.WriteLine($"The highest grade is {stats.High:N1}");
             System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
             System.Console.WriteLine($"The average grade is {stats.Average:N1}");
             System.Console.WriteLine($"The letter grade is {stats.Letter}");
 
+        }
+
+        static void OnGradeAdded(object sender, EventArgs e)
+        {
+            System.Console.WriteLine("A grade was added.");
         }
     }
 }
