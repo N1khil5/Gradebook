@@ -7,11 +7,26 @@
         {
             System.Console.WriteLine("Please enter your name to initialise your own gradebook.");
 
-            var book = new Book($"GradeBook");
+            var book = new InMemoryBook($"GradeBook");
             book.Name = Console.ReadLine();
 
             book.GradeAdded += OnGradeAdded;
 
+            EnterGrades(book);
+
+            var stats = book.GetStatistics();
+
+            System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
+            System.Console.WriteLine($"The gradebook category is {InMemoryBook.CATEGORY}");
+            System.Console.WriteLine($"The highest grade is {stats.High:N1}");
+            System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
+            System.Console.WriteLine($"The average grade is {stats.Average:N1}");
+            System.Console.WriteLine($"The letter grade is {stats.Letter}");
+
+        }
+
+        private static void EnterGrades(Book book)
+        {
             while (true)
             {
                 Console.WriteLine("Please add the grades in this gradebook or 'q' to quit");
@@ -36,20 +51,9 @@
                 }
                 finally
                 {
-                    System.Console.WriteLine("");
+                    System.Console.WriteLine("***");
                 }
-
             }
-
-            var stats = book.GetStatistics();
-
-            System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
-            System.Console.WriteLine($"The gradebook category is {Book.CATEGORY}");
-            System.Console.WriteLine($"The highest grade is {stats.High:N1}");
-            System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
-            System.Console.WriteLine($"The average grade is {stats.Average:N1}");
-            System.Console.WriteLine($"The letter grade is {stats.Letter}");
-
         }
 
         static void OnGradeAdded(object sender, EventArgs e)
