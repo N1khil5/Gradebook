@@ -6,9 +6,9 @@ namespace GradeBook
 
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
-    public class Book
+    public class Book : NamedObject
     {
-        public Book(string name)
+        public Book(string name) : base(name)
         {
             grades = new List<double>();
             Name = name;
@@ -82,25 +82,6 @@ namespace GradeBook
         }
 
         private List<double> grades;
-        public string Name
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                if (!String.IsNullOrEmpty(value))
-                {
-                    name = value;
-                }
-                else
-                {
-                    throw new ArgumentNullException();
-                }
-            } 
-        }
-        private string name;
 
         public const string CATEGORY = "Science";
     }

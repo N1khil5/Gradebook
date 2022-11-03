@@ -11,9 +11,6 @@
             book.Name = Console.ReadLine();
 
             book.GradeAdded += OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-            book.GradeAdded -= OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
 
             while (true)
             {
