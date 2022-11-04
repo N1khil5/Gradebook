@@ -6,13 +6,28 @@ namespace GradeBook
 
     public delegate void GradeAddedDelegate(object sender, EventArgs args);
 
+    // Convention to start the name of an interface with 'I'.
+    // IBook is the Book interface.
+    public interface IBook 
+    {
+        // methods defined in an interface need to have a member available. 
+        void AddGrade(double grade);
+        Statistics GetStatistics();
+        string Name {get;}
+        event GradeAddedDelegate GradeAdded;
+    }
 
-    public abstract class Book : NamedObject
+    public abstract class Book : NamedObject, IBook
     {
         public Book(string name) : base(name)
         {
         }
+
+        public abstract event GradeAddedDelegate GradeAdded;
+
         public abstract void AddGrade(double grade);
+
+        public abstract Statistics GetStatistics();
     }
 
     public class InMemoryBook : Book
@@ -68,30 +83,31 @@ namespace GradeBook
 
         }
 
-        public event GradeAddedDelegate GradeAdded;
+        public override event GradeAddedDelegate GradeAdded;
 
-
-        public Statistics GetStatistics() 
+        public override Statistics GetStatistics() 
         {
             var result = new Statistics();
-            result.Low = double.MaxValue;
-            result.High = double.MinValue;
-            result.Average = 0.0;
-            foreach(var grade in grades)
+            if (grades.Count == 0)
             {
-                result.Low = Math.Min(grade, result.Low);
-                result.High = Math.Max(grade, result.High);
-                result.Average += grade;
+                //result.Letter = AddLetterGrade(result.Average);
+                return result;
             }
-            result.Average /= grades.Count;
+            else
+            {
+                for(var index = 0; index < grades.Count; index++)
+                {
+                    result.Add(grades[index]);
+                }
 
-            result.Letter = AddLetterGrade(result.Average);
+                //result.Letter = AddLetterGrade(result.Average);
 
-            return result;
+                return result;
+            }
+
         }
 
         private List<double> grades;
 
-        public const string CATEGORY = "Science";
     }
 }
