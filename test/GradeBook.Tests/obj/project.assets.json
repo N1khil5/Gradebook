@@ -6125,32 +6125,40 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NikhilSuresh\\.nuget\\packages\\": {}
+    "C:\\Users\\NikhilSuresh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectPath": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "outputPath": "c:\\Users\\NikhilSuresh\\gradebook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }

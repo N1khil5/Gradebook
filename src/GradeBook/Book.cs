@@ -38,31 +38,31 @@ namespace GradeBook
             Name = name;
         }
 
-        public char AddLetterGrade(double grade)
-        {
+        // public char AddLetterGrade(double grade)
+        // {
 
-            if (grade >= 90.0)
-            {
-                return('A');
-            }
-            else if (grade >= 80.0)
-            {
-                return('B');
-            }
-            else if (grade >= 70.0) 
-            {
-                return('C');
-            }
-            else if (grade >= 60.0)
-            {
-                return('D');
-            }
-            else
-            {
-                return('F');
-            }
+        //     if (grade >= 90.0)
+        //     {
+        //         return('A');
+        //     }
+        //     else if (grade >= 80.0)
+        //     {
+        //         return('B');
+        //     }
+        //     else if (grade >= 70.0) 
+        //     {
+        //         return('C');
+        //     }
+        //     else if (grade >= 60.0)
+        //     {
+        //         return('D');
+        //     }
+        //     else
+        //     {
+        //         return('F');
+        //     }
             
-        }
+        // }
 
         public override void AddGrade(double grade)
         {

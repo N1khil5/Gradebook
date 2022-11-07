@@ -8,24 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\NikhilSuresh\\.nuget\\packages\\": {}
+    "C:\\Users\\NikhilSuresh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectPath": "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\GradeBook.csproj",
       "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\obj\\",
+      "outputPath": "c:\\Users\\NikhilSuresh\\gradebook\\src\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
