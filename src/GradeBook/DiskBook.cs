@@ -1,8 +1,6 @@
 namespace GradeBook;
 using System;
 using System.IO;
-using System.Text;
-
 public class DiskBook : Book
 {
     public DiskBook(string name) : base(name)
@@ -31,7 +29,8 @@ public class DiskBook : Book
             else
             {
                 //using (StreamWriter writer = new StreamWriter(fileName));
-                using(var writer = File.Create(fileName));                
+                //using(var writer = File.Create(fileName));       
+                File.Create(fileName);      
             }
 
         }

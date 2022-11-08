@@ -1,5 +1,4 @@
-﻿using System;
-namespace GradeBook
+﻿namespace GradeBook
 {
 
     class Program
@@ -15,10 +14,12 @@ namespace GradeBook
                 System.Console.WriteLine("You have not added a name. Default name added.");
                 book.Name = "Default";
             }
-            else 
+            else
             {
                 book.Name = gradebookName;
             }
+
+            createFile(book.Name);
 
             book.GradeAdded += OnGradeAdded;
 
@@ -32,6 +33,22 @@ namespace GradeBook
             System.Console.WriteLine($"The average grade is {stats.Average:N1}");
             System.Console.WriteLine($"The letter grade is {stats.Letter}");
 
+        }
+
+        private static void createFile(string name)
+        {
+            string fileName = $"{name}.txt";
+            if (!File.Exists(fileName))
+            {
+                using (var writer = File.Create($"{name}.txt"))
+                {
+                    System.Console.WriteLine("A gradebook has been created");
+                }
+            }
+            else
+            {
+                System.Console.WriteLine($"Will write to existing {name}\'s gradebook");
+            }
         }
 
         private static void EnterGrades(IBook book)
@@ -48,7 +65,7 @@ namespace GradeBook
                 {
                     // Converting the input string into a double so it can be added to the gradebook array.
                     var grade = double.Parse(input);
-                    book.AddGrade(grade);               
+                    book.AddGrade(grade);
                 }
                 catch (ArgumentException ex)
                 {

@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-
-
 namespace GradeBook
 {
 
@@ -8,12 +5,12 @@ namespace GradeBook
 
     // Convention to start the name of an interface with 'I'.
     // IBook is the Book interface.
-    public interface IBook 
+    public interface IBook
     {
         // methods defined in an interface need to have a member available. 
         void AddGrade(double grade);
         Statistics GetStatistics();
-        string Name {get;}
+        string Name { get; }
         event GradeAddedDelegate GradeAdded;
     }
 
@@ -40,24 +37,37 @@ namespace GradeBook
 
         public override void AddGrade(double grade)
         {
+            string fileName = $"{Name}.txt";
             // Input validity check.
             if (grade <= 100 && grade >= 0)
             {
-                grades.Add(grade);
-                if (GradeAdded != null)
+                try
                 {
-                    GradeAdded(this, new EventArgs());
+                    using (var writer = File.AppendText($"{Name}.txt"))
+                    {
+                        grades.Add(grade);
+                        writer.WriteLine(grade);
+                        if (GradeAdded != null)
+                        {
+                            GradeAdded(this, new EventArgs());
+                        }
+                    }
+
+                }
+                catch (System.Exception ex)
+                {
+                    System.Console.WriteLine(ex.Message);
                 }
             }
             else
             {
                 throw new ArgumentException($"Invalid {nameof(grade)}");
-            } 
+            }
         }
 
         public override event GradeAddedDelegate GradeAdded;
 
-        public override Statistics GetStatistics() 
+        public override Statistics GetStatistics()
         {
             var result = new Statistics();
             if (grades.Count == 0)
@@ -66,7 +76,7 @@ namespace GradeBook
             }
             else
             {
-                for(var index = 0; index < grades.Count; index++)
+                for (var index = 0; index < grades.Count; index++)
                 {
                     result.Add(grades[index]);
                 }
