@@ -28,7 +28,12 @@ public class DiskBook : Book
                     }
                 }
             }
-            using (StreamWriter writer = new StreamWriter(fileName));
+            else
+            {
+                //using (StreamWriter writer = new StreamWriter(fileName));
+                using(var writer = File.Create(fileName));                
+            }
+
         }
         catch (System.Exception ex)
         {
