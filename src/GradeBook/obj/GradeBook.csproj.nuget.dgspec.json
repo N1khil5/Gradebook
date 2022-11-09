@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {}
+    "C:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
-        "packagesPath": "C:\\Users\\nzs52\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\obj\\",
+        "projectPath": "C:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nzs52\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

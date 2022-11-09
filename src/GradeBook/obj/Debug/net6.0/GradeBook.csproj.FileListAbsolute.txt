@@ -28,3 +28,18 @@ c:\Users\nzs52\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\refi
 c:\Users\nzs52\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.pdb
 c:\Users\nzs52\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
 c:\Users\nzs52\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\ref\GradeBook.dll
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.exe
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.deps.json
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.runtimeconfig.json
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.dll
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.pdb
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.csproj.AssemblyReference.cache
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.AssemblyInfoInputs.cache
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.AssemblyInfo.cs
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.csproj.CoreCompileInputs.cache
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.dll
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\refint\GradeBook.dll
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.pdb
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
+c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\ref\GradeBook.dll

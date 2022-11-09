@@ -52,7 +52,7 @@ namespace GradeBook
                             GradeAdded(this, new EventArgs());
                         }
                     }
-
+                    
                 }
                 catch (System.Exception ex)
                 {

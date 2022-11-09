@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
-        "packagesPath": "C:\\Users\\nzs52\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\obj\\",
+        "projectPath": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nzs52\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,34 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-        "packagesPath": "C:\\Users\\nzs52\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\obj\\",
+        "projectPath": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "packagesPath": "C:\\Users\\NikhilSuresh\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\test\\GradeBook.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nzs52\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\NikhilSuresh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "c:\\Users\\nzs52\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "c:\\Users\\NikhilSuresh\\OneDrive - Optalitix Ltd\\Documents\\gradebook\\Gradebook\\src\\GradeBook\\GradeBook.csproj"
               }
             }
           }
@@ -132,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
