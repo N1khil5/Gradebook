@@ -5,33 +5,53 @@
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Please enter your name to initialise your own gradebook.");
 
-            var book = new InMemoryBook($"GradeBook");
-            var gradebookName = Console.ReadLine();
-            if (String.IsNullOrEmpty(gradebookName))
+
+            while (true)
             {
-                System.Console.WriteLine("You have not added a name. Default name added.");
-                book.Name = "Default";
+                System.Console.WriteLine("Please enter anything to continue or 'q' to quit");
+                var choice = Console.ReadLine();
+                if (choice == "q")
+                {
+                    break;
+                }
+                try
+                {
+                    System.Console.WriteLine("Please enter your name to initialise your own gradebook.");
+
+                    var book = new InMemoryBook($"GradeBook");
+                    var gradebookName = Console.ReadLine();
+                    if (String.IsNullOrEmpty(gradebookName))
+                    {
+                        System.Console.WriteLine("You have not added a name. Default name added.");
+                        book.Name = "Default";
+                    }
+                    else
+                    {
+                        book.Name = gradebookName;
+                    }
+
+                    createFile(book.Name);
+
+                    book.GradeAdded += OnGradeAdded;
+
+                    EnterGrades(book);
+
+                    var stats = book.GetStatistics();
+
+                    System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
+                    System.Console.WriteLine($"The highest grade is {stats.High:N1}");
+                    System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
+                    System.Console.WriteLine($"The average grade is {stats.Average:N1}");
+                    System.Console.WriteLine($"The letter grade is {stats.Letter}");
+                }
+                catch (Exception ex)
+                {
+                    System.Console.WriteLine(ex.Message);
+                }
             }
-            else
-            {
-                book.Name = gradebookName;
-            }
 
-            createFile(book.Name);
 
-            book.GradeAdded += OnGradeAdded;
-
-            EnterGrades(book);
-
-            var stats = book.GetStatistics();
-
-            System.Console.WriteLine($"The statistics for {book.Name}\'s gradebook are as follows:");
-            System.Console.WriteLine($"The highest grade is {stats.High:N1}");
-            System.Console.WriteLine($"The lowest grade is {stats.Low:N1}");
-            System.Console.WriteLine($"The average grade is {stats.Average:N1}");
-            System.Console.WriteLine($"The letter grade is {stats.Letter}");
 
         }
 

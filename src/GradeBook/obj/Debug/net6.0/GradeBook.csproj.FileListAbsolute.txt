@@ -43,3 +43,18 @@ c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src
 c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.pdb
 c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
 c:\Users\NikhilSuresh\OneDrive - Optalitix Ltd\Documents\gradebook\Gradebook\src\GradeBook\obj\Debug\net6.0\ref\GradeBook.dll
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.exe
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.deps.json
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.runtimeconfig.json
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.dll
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\bin\Debug\net6.0\GradeBook.pdb
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.csproj.AssemblyReference.cache
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.AssemblyInfoInputs.cache
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.AssemblyInfo.cs
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.dll
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\refint\GradeBook.dll
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.pdb
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
+C:\Users\NikhilSuresh\Documents\Gradebook\src\GradeBook\obj\Debug\net6.0\ref\GradeBook.dll
